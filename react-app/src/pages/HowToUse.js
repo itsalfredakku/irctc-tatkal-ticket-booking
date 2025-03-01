@@ -20,11 +20,11 @@ const HowToUse = () => {
           <ol>
             <li><code>Tatkal Start Timer</code>:
               <ul>
-                <li>For <code>AC class</code>, the Tatkal start timer is set to <code>09:59:53</code>.</li>
-                <li>For <code>Sleeper class</code>, it&apos;s set to <code>10:59:53</code>.</li>
+                <li>For <code>AC class</code>, the Tatkal start timer is set to <code>09:59:58</code>.</li>
+                <li>For <code>Sleeper class</code>, it&apos;s set to <code>10:59:58</code>.</li>
               </ul>
             </li>
-            <li><code>Refresh Time (ms)</code> is set to 5000ms (5 seconds).</li>
+            <li><code>Refresh Time (ms)</code> is set to 1500ms (1.5 seconds).</li>
             <li><code>Login Minutes Before</code> is set to 2 minutes by default.</li>
           </ol>
           <li>Click the <code>Save Settings</code> button once all details are filled in.</li>

@@ -26,7 +26,7 @@ function TimerDetails() {
         label={
           <span>
             Refresh Time (ms)
-            <Tooltip title="Refresh the train availability status every 5 seconds(5000 milliseconds) on the IRCTC page">
+            <Tooltip title="Refresh the train availability status every 1.5 seconds(1500 milliseconds) on the IRCTC page">
               <InfoOutlinedIcon fontSize="small" style={{ marginLeft: '4px', verticalAlign: 'text-bottom' }} />
             </Tooltip>
           </span>

@@ -10,7 +10,7 @@ let isAvlEnquiryCompleted = false;
 let mutationCompletionCounter = 0;
 
 async function findRootTrain() {
-    await delay(500);
+    await delay(500); // TODO: Adjust delay dynamically when element appears
     const trainHeadingElements = document.querySelectorAll(TRAIN_LIST_SELECTORS.FIND_TRAIN_NUMBER);
   
     if (!trainHeadingElements || !trainHeadingElements.length) {
@@ -46,7 +46,7 @@ async function findRootTrain() {
       logger.warn('No available classes found.');
       return;
     }
-    await delay(500);
+    await delay(500); // TODO: Adjust delay dynamically when element appears
     let selectedClass = null;
     for (let availableClass of availableClasses) {
       const classNameElement = availableClass.querySelector('strong');
@@ -63,7 +63,7 @@ async function findRootTrain() {
       return;
     }
     
-    await delay(200);
+    await delay(200); // TODO: Adjust delay dynamically when element appears
     await selectedClass.click();
   
     logger.info(
@@ -78,7 +78,7 @@ async function findRootTrain() {
     try {
       const rootElement = document.querySelectorAll(TRAIN_LIST_SELECTORS.TRAIN_COMPONENT)[trainFoundAtPosition];
       const selectedTab = rootElement.querySelector(TRAIN_LIST_SELECTORS.SELECTED_CLASS_TAB);
-      await delay(100);
+      await delay(100); // TODO: Adjust delay dynamically when element appears
       if (selectedTab) {
         await selectedTab.click();
       } else {

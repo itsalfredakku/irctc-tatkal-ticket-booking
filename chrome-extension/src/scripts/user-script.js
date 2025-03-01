@@ -4,7 +4,7 @@ import Logger from './logger';
 let automationStatus = false;
 let username = '';
 let password = '';
-let targetTime ='09:59:53'
+let targetTime ='09:59:58'
 let passengerList = [];
 let masterData = false;
 let passengerNames = '';
@@ -14,7 +14,7 @@ let to = '';
 let quotaType = '';
 let accommodationClass = '';
 let dateString = '';
-let refreshTime = 5000; // 5 seconds;
+let refreshTime = 1500; // 1.5 seconds;
 let paymentType = 'BHIM/UPI'; // Rs 20 chargs for bhim/upi, Rs 30 for cards / net banking / wallets
 let paymentMethod = 'BHIM/ UPI/ USSD';   // or IRCTC eWallet
 let paymentProvider = 'PAYTM'; // paytm, amazon /  or IRCTC eWallet
@@ -31,7 +31,7 @@ const defaultSettings = {
   automationStatus: false,
   username: '',
   password: '',
-  targetTime: '09:59:53',
+  targetTime: '09:59:58',
   passengerList: [],
   masterData: false,
   passengerNames: [],
@@ -41,7 +41,7 @@ const defaultSettings = {
   quotaType: '',
   accommodationClass: '',
   dateString: '',
-  refreshTime: 5000,
+  refreshTime: 1500,
   paymentType: 'BHIM/UPI',
   paymentMethod: 'BHIM/ UPI/ USSD',
   paymentProvider: 'PAYTM',

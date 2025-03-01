@@ -15,7 +15,7 @@ export let to = '';
 export let quotaType = '';
 export let accommodationClass = '';
 export let dateString = '';
-export let refreshTime = 5000; // 5 seconds;
+export let refreshTime = 1500; // 5 seconds;
 export let paymentType = 'BHIM/UPI'; // Rs 20 chargs for bhim/upi, Rs 30 for cards / net banking / wallets
 export let paymentMethod = 'BHIM/ UPI/ USSD';   // or IRCTC eWallet
 export let paymentProvider = 'PAYTM'; // paytm, amazon /  or IRCTC eWallet
@@ -30,7 +30,7 @@ const defaultSettings = {
   automationStatus: false,
   username: '',
   password: '',
-  targetTime: '09:59:53',
+  targetTime: '09:59:58',
   passengerList: [],
   masterData: false,
   passengerNames: [],
@@ -40,7 +40,7 @@ const defaultSettings = {
   quotaType: '',
   accommodationClass: '',
   dateString: '',
-  refreshTime: 5000,
+  refreshTime: 1500,
   paymentType: 'BHIM/UPI',
   paymentMethod: 'BHIM/ UPI/ USSD',
   paymentProvider: 'PAYTM',
