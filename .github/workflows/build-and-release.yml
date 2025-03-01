@@ -4,15 +4,16 @@
   
   # Trigger the workflow on tag push, release creation, or PR to main
   on:
-    push:
-      tags:
-        - v*
-    release:
-      types:
-        - created
-    pull_request:
-      branches:
-        - main
+    workflow_dispatch:
+    # push:
+    #   tags:
+    #     - v*
+    # release:
+    #   types:
+    #     - created
+    # pull_request:
+    #   branches:
+    #     - main
   
   jobs:
     build:
